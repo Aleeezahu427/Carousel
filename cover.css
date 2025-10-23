@@ -48,3 +48,15 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
+/*
+ * Cover
+ */
+
+  body {
+    background-image: url('cover.jpg'); /* or 'img/background.jpg' */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
